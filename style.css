@@ -1,0 +1,71 @@
+body {
+	background-image: url(jungle.jpg);
+	color: grey;
+	font-family: lato;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1{
+	font-family: lato;
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+a:hover{
+	color: purple;
+}
+
+div{
+	border: 0px solid black;
+	background: white;
+	margin: 40px;
+	padding: 20px;
+	color: black;
+	border-radius: 20px;
+	box-shadow: 0px 5px 5px;
+}
+
+#okok{
+border-radius: 200px; 
+}
+
+#okok:hover{
+border-radius: 50px;
+}
+
+.toto {
+	 border-radius: 20px
+	 border: 1px solid black;
+	 
+}
+
+.rio{
+	border-radius: 20px
+}
+
+#ah{
+	background-color: lightgrey;
+	border-radius: 20px;
+}
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
